@@ -10,7 +10,6 @@ A collection of frontend tasks built with React these tasks distributed over the
 - Jquery
 - Bootstrap
 - TypeScript
-This repository contains a series of frontend tasks implemented using React. These tasks demonstrate various frontend development concepts and React features.
 
 ## Features
 
