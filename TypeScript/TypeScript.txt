@@ -1,0 +1,95 @@
+
+// 1. Variable Declarations
+let username: string = "JohnDoe";
+let age = 30;
+let userId: string | number = "ABC123";
+
+// 2. Basic Types
+let isActive: boolean = true;
+let price: number = 9.99;
+let message: string = "Hello, TypeScript!";
+let notSure: any = "Could be anything";
+let nothing: void = undefined;
+let neverValue: never;
+
+// 3. Arrays
+let numbers: number[] = [1, 2, 3];
+let names: Array<string> = ["Alice", "Bob"];
+let userInfo: [string, number] = ["Alice", 28];
+
+// 4. Objects and Interfaces
+interface User {
+  id: number;
+  name: string;
+  email?: string;
+}
+
+const user: User = {
+  id: 1,
+  name: "John Doe"
+};
+
+// 5. Functions
+function add(x: number, y: number): number {
+  return x + y;
+}
+
+const greet = (name: string): string => {
+  return `Hello, ${name}!`;
+};
+
+function createUser(name: string, age?: number): void {}
+function sendMessage(message: string = "Default message"): void {}
+
+// 6. Classes
+class Person {
+  name: string;
+  private age: number;
+  
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  describe(): string {
+    return `${this.name} is ${this.age} years old.`;
+  }
+}
+
+// 7. Generics
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+let output = identity<string>("myString");
+let output2 = identity<number>(42);
+
+interface ApiResponse<T> {
+  data: T;
+  status: number;
+}
+
+// 8. Type Aliases
+type StringOrNumber = string | number;
+
+function processValue(value: StringOrNumber) {}
+
+// 9. Enums
+enum Direction {
+  Up = "UP",
+  Down = "DOWN",
+  Left = "LEFT",
+  Right = "RIGHT"
+}
+
+let move: Direction = Direction.Up;
+
+// 10. Utility Types
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type PartialTodo = Partial<Todo>;
+type ReadonlyTodo = Readonly<Todo>;
