@@ -1,0 +1,92 @@
+Question 1 :
+
+1=>Void Elements.
+
+2=>Em is a unit that are changes in reponse to the parent Element   
+ =>rem is a unit that are changes in reponse to root Element 
+ =>px is a fixed size unit that doesn't change in reponse to any Element.
+
+3=>Button of type Submit are More Accessibile than input of type submit because it can hold text,icons and images
+   also,input of type submit are self-clothing Element and button of type submit are container Element.
+
+4=>Hoisting means reordering the declaration of a variable to be declared before usage
+   and declaration keywords that allow hoisting are just var not let or const,in this shape the compiler will represent your code
+   var name;
+   console.log(name);//undefined
+   name="Mahmoud";
+   =>The event loop is a js mechanism that checks the call stack and the task queue to execute functions
+     It ensures asynchronous operations by executing queued tasks only after the stack is clear.
+  
+5=>for ..of are using to iterate throw container values specially for Arrays,
+   for ..in are using to iterate throw container indexes specially for Objects,
+   do ..while loope are iterate at least one time before breaking the condition even if the condition if false.
+
+========================================================================================================================
+Question 2 :
+
+figure 1=>Hey! , 50
+
+figure 2=>101
+
+figure 3=>20 , 62.8
+
+figure 4=>30 , Error:diff is not defined.
+
+figure 5=>Array , Error:Missing Parameter 'z'.
+
+========================================================================================================================
+Question 3 :
+
+1=>Paragraph 2 and Paragraph 3 will be afeccted,
+ =>only Paragraph 2 will be afeccted.
+
+2=>an Adress Element 
+
+3=>let areAnagrams = (str1,str2) => str1.split('').reverse().join('')==str2;
+
+4=>let calculateMean =(...args)=>{
+    let sum= args.reduce((accum, curr) => {
+        return accum + curr;
+      }, 0);
+      return sum/args.length
+   }
+
+5=>function  checkSeason(userMonth){
+    let seasons={
+        Autumn : ["September","October","November"],
+        Winter : ["December","January","February"],
+        Spring  : ["March","April","May"],
+        Summer : ["June","July","August"],
+    }
+    for(let season in seasons)
+    {
+        for(let month of seasons[season])
+        {
+            if(userMonth==month)
+            {
+               return season;
+            }
+        }
+    }
+}
+
+6=>let factorial =(num)=>num==0||num==1? 1:num*factorial(num-1);
+
+7=>let duplicate = (...array) => array.flatMap((arr) => [arr, arr]);
+
+8=>let emptyArray = (...array) => {
+    array.splice(0, array.length);
+    return array; 
+   };
+
+=============================================================================================
+Question 4 : 
+
+1=>document.querySelector("#hide").addEventListener('click',()=>{
+      document.querySelector("#content").innertext="";
+});
+document.querySelector("#show").addEventListener('click',()=>{
+    document.querySelector("#content").innertext="lorem15";
+});
+
+

@@ -1,0 +1,9 @@
+1-using useEffect hook with empty dependancy array : useEffect(() => {setDone(true)}, []); 
+
+2-it's a built in web API function doesn't require any external liberary
+
+3-componentDidMoun in a class coomponent
+
+4-comparing the virtual dom with real dom in a reconcilation proccess
+
+5-useMomo()

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CRUD Operation</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="bg-dark text-white text-center py-3">
+        <h1>Course Management App</h1>
+    </div>
+    <div class="container text-success py-5">
+        <div class="row">
+            <div class="col-md-12  col-sm-6 mb-3">
+                <label for="courseTitle" class="form-label">Course Title</label>
+                <input type="text" id="courseTitle" class="form-control" placeholder="Enter course title">
+            </div>
+            <div class="col-md-12  col-sm-6 mb-3">
+                <label for="courseDescription" class="form-label">Course Description</label>
+                <input type="text" col-sm-6 id="courseDescription" class="form-control" placeholder="Enter course description">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="coursePrice" class="form-label">Course Price</label>
+                <input type="number" col-sm-6 id="coursePrice" class="form-control" placeholder="Enter price">
+            </div>
+            <div class="col-md-12 col-sm-6 mb-3">
+                <label for="courseInstructor" class="form-label">Course Instructor</label>
+                <input type="text" id="courseInstructor" class="form-control" placeholder="Enter instructor name">
+            </div>
+            <div class="col-12 text-center">
+                <input type="submit" value="Save" class="btn btn-primary">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <table class="table table-bordered table-striped text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Instructor</th>
+                </tr>
+            </thead>
+            <tbody id="courseTableBody">
+                <!-- Dynamic course data will be inserted here -->
+            </tbody>
+        </table>
+    </div>    
+</body>
+</html>

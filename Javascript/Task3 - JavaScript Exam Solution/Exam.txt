@@ -1,0 +1,40 @@
+Solution For JavaScript Exam :
+
+1- [130,88,24,8]
+
+2- 3
+
+3- 30
+
+4- [59.52, 83.7, 93]
+
+5- true 
+   false
+
+6-["Leonardo"........,"Shredder"]
+
+7-["Batman","Bane"]
+  
+8-"Number","string","undfined","object","array"
+
+9- x=150
+   y=300
+
+10-"Anonymous"
+    18
+    ""
+    0
+
+11-['white','black','gray']
+   -true
+
+12-[false,true,false,true,false]
+   []
+
+13-{firstName:'john',lasName:'doe'}
+   {firstName:first,lasName:last}
+
+14- 50
+
+15-[0,0,0,0]
+    
