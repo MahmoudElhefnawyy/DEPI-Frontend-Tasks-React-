@@ -1,0 +1,51 @@
+<=Html Exam Solution=>:
+
+1=>link tag is used to link external document maybe css or js with html file 
+         <link rel="stylesheet" href="style.css">
+
+2=>vedio,audio and picture all are tags that can Soucre Element Assign to them
+
+3=> <details open>
+        <summary>Parmeasan Delvid Eggs</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, qui.</p>
+    </details>
+
+4=>use ol (ordered items) and ul in (unordred items)
+
+5=>the page should start with <!DOCTYPE html>
+
+6=>the code represent a picture that is responsive on diffrent screen of size More than 1000px and 750px
+
+7=> <table>
+            <tr aria-colspan="2"  style="background-color: yellow;">
+              <td>first</td>
+              <td>second</td>
+              <td>third</td>
+            </tr>
+    </table>
+
+8=> <ul>
+    <li>Office Supplies
+        <ul>
+            <li>Stapler</li>
+            <li>Paper Clips</li>
+        </ul>
+    </li>
+    <li>Groceries
+        <ul>
+            <li>Milk</li>
+        </ul>
+    </li>
+   </ul>
+
+9=> using blockquote to make multiple line quotes
+
+10=> <a href="mailto:email@example.com?subject="Hello" & body="hello world"></a>
+
+11=> using q for single line qoute
+
+12=> using address element
+
+13=> Elements inside the ul should only be li 
+
+14=> void Element or self-colsing tags

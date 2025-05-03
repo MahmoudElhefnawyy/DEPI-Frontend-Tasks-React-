@@ -1,0 +1,96 @@
+1- _top VS _parent attribute
+=>Definition:
+.value assigned to the target attribute that determine how
+you can navigate to Iframe or Window
+.top refer to open the Ifram in the topmost window
+.parent refer to open the Ifram in the current parent window
+=>Exampple
+<Ifram src="example.html" name="iframe1"></Ifram>
+<a href="anthorHtml.html" target="iframe1">open in Ifram1</a>
+================================================================
+2-Strong VS Bold
+=>Definition:
+.html Element that make the content highlight or significant
+.strong are more semantic more just appearence aligned with SEO optimization
+.bold are just make the text bold or significant
+=>Exampple
+<p><strong>This text is Semantically important</strong></p>
+<p><bold>This text is Just Bold!</bold></p>
+=================================================================
+3-ol VS ul VS dl
+=>Definition:
+.represent collection of objects groubed toghther
+.ol are ordered list with number or character
+.ul are unorderd list with bullet points
+.dl are description list that define a concept or term
+=>Exampple
+<ol type="A">
+  <li>one</li>
+  <li>two</li>
+</ol>
+<ul>
+  <li>one</li>
+  <li>two</li>
+</ul>
+<dl>
+  <dt>Html</dt>
+  <dt>Hyper text markup language</dt>
+</dl>
+===========================================================
+4-what is option group Element?
+=>Definition:
+.html Element that used to group related options inside dropdown list
+=>Exampple
+<select>
+ <optgroup label="Fruits">
+    <option value="1">apple</option>
+    <option value="1">banana</option>
+    <option value="1">carrot</option>
+ </optgroup>
+</select>
+================================================================
+5-what is hsl() method?
+=>Definition:
+.Color Function to get colors throw mixing (Hue,Saturation,Lightness)
+=>Example
+color:hsl(90,30%,50%);
+=================================================================================
+6-border VS outline
+=>Definition:
+.CSS Property that matches the Elemet with line has width,type and color,commonly used in define element boundry 
+.outline:is similar to border but does'nt affect any size of the layout and width of the elemet typically used for focus or accessability
+=>Exampple
+border:2px solid green;
+outline:2px solid green;
+====================================================================================
+7-what is list-style-position?
+=>Definition:
+.define the position of the bullet point or numbered between the list Items and their border can be insid or outside 
+=>Exampple
+list-style-position:outside;
+=====================================================================================
+8-Translate VS Position in animation?
+=>Definition:
+.Translate are transfome the position of the Element based on x and y axis or both
+.Position are determine the position of the element based on the four aspects (top,bottom,left,right)
+.usually translate doesn't trigger layout recalculation and reflow and use GPU for hardware Acceleration
+=>Example:
+translate-x:150px;
+position:absolute;
+=====================================================================================
+9-why position:fixed should take 100% width?
+=>Definition:
+.when setting the position fixed that is will be relative to the viewport and can overflow if it's width isn't set yet
+=>Example:
+position:fixed;
+width:100%;
+=====================================================================================
+10-How to make the NavBar with position:fixed aside on right or left?
+=>Definition:
+.By using the left and top property algined with fixed 100vh hight
+=>Example:
+position:absolute;
+left:0;
+top:0;
+highlight:100vh;
+width:200px;
